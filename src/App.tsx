@@ -1,12 +1,13 @@
-import './App.css';
-import {DigitalClock} from "./components/DigitalClock";
+import './App.css'
+import { Clock } from './components/Clock'
 
 function App() {
   return (
     <div className="App">
-      <DigitalClock/>
+      {/*<Clock mode='digital'/>*/}
+      <Clock mode="analog" />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
